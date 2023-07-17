@@ -1,0 +1,29 @@
+{
+  "name": "intro-to-node",
+  "version": "1.0.0",
+  "description": "Learning Node js from frontend masters",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "note": "./index.js"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PraminBudhathoki/Intro-to-Nodejs.git"
+  },
+  "author": "Pramin Budhathoki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PraminBudhathoki/Intro-to-Nodejs/issues"
+  },
+  "homepage": "https://github.com/PraminBudhathoki/Intro-to-Nodejs#readme",
+  "dependencies": {
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "jest": "^29.6.1"
+  }
+}
