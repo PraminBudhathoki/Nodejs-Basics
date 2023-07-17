@@ -8,7 +8,7 @@
     "note": "./index.js"
   },
   "scripts": {
-    "test": "jest"
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/PraminBudhathoki/Intro-to-Nodejs#readme",
   "dependencies": {
+    "open": "^9.1.0",
     "yargs": "^17.7.2"
   },
   "devDependencies": {
